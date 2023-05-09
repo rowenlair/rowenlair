@@ -1,59 +1,76 @@
 .header-container {
-    width: 100%;
-    height: 300px;
-    background-color: rgb(37, 102, 255);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 0px 10px 13px -7px #000000, 0px 19px 17px 0px rgba(0,0,0,0.21);
+  width: 100%;
+  height: 300px;
+  background-color: rgb(37, 102, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 10px 13px -7px #000000, 0px 19px 17px 0px rgba(0,0,0,0.21);
 }
 
 .header-container > .my-name {
-    color: white;
-    font-size: 100px;
-    font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 100px;
+  font-family: 'PT Sans', sans-serif;
 
 }
 
 body {
-    margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .page-container {
-    width: 100%;
-    height: 800px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
 }
 
 
 .about-me-header {
-    width: 320px;
-    height: 100px;
-    background-color: gold;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: #11122b;
-    font-size: 50px;
-    font-family: 'PT Sans', sans-serif;
-    
+  width: 320px;
+  height: 100px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #11122b;
+  font-size: 50px;
+  font-family: 'PT Sans', sans-serif;
+  
 }
 
 .content-wrapper {
-    margin-top: 30px;
-    width: 900px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 1.3em;
-    line-height: 35px;
-    letter-spacing: 1px;
-}
+  margin: 30px;
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 35px;
+  letter-spacing: 1px;
+  }
+
 
 .header-container a {
-    font-size: 2em;
-    color: deeppink;
+  font-size: 800%;
+  color: deeppink;
 }
 
+#changeimg {
+  size: 100%;
+}
+.content-wrapper > img{
 
+}
 
-
+.imagecolumn{
+  display: flex;flex-direction: column;
+  width: 50%;height: 100%;
+}
+.textcolumn{
+  display: flex;flex-direction: column;
+  width: 50%;height: 100%;
+}
+.columnholder{
+  display: flex;flex-direction: row;
+  width: 100%;height: 100%;
+}
